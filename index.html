@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pensjonat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Pensjonat</h1>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#about-me">O Nas</a></li>
+                <li><a href="#specialization">Specjalizacja</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-me" id="about-me">
+            <h2>O Nas</h2>
+            <p>Oferujemy Państwu komfortowe pokoje w malowniczo położonym pensjonacie z trzema gwiazdkami, nad samym brzegiem jeziora Sukiel (10m od brzegu). Znajdujemy się w Olsztynie na obrzeżu spokojnego osiedla domków jednorodzinnych zaledwie 300 metrów od lasu a jednocześnie tylko 3 km od centrum miasta.</p>
+        </section>
+        <section class="specialization" id="specialization">
+            <h2>Specjalizacja</h2>
+            <p>Pensjonat U Jacka szczyci się doskonałą lokalizacją nad jeziorem Sukiel, 300 metrów od lasu oraz 3 km od centrum Olsztyna. Oferuje on bezpłatne rowery i prywatną plażę z leżakami.
+                Pokoje w pensjonacie U Jacka są przestronne i jasne. W każdym z nich znajduje się łazienka i telewizor. Niektóre pokoje dysponują tarasem z widokiem na jezioro. W pokojach można korzystać z bezpłatnego bezprzewodowego dostępu do Internetu.
+                Goście mogą zjeść śniadanie w restauracji, która specjalizuje się w daniach rybnych. W ogrodzie dostępny jest sprzęt do grillowania.
+                Na terenie pensjonatu U Jacka można się opalać, łowić ryby i pływać kajakiem.
+                Stacja kolejowa Olsztyn Zachodni znajduje się 2,6 km od obiektu. Na miejscu dostępny jest bezpłatny parking.</p>
+        </section>
+        <section class="gallery" id="gallery">
+            <h2>Galeria</h2>
+            <div class="gallery-grid">
+                <img src="./img/1.jpg" alt="Gallery Image 1" class="gallery-item">
+                <img src="./img/2.jpg" alt="Gallery Image 2" class="gallery-item">
+                <img src="./img/3.jpg" alt="Gallery Image 3" class="gallery-item">
+                <img src="./img/4.jpg" alt="Gallery Image 4" class="gallery-item">
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Kontakt</h2>
+            <p>Tu są jakieś informacje kontaktowe.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24480.761357720155!2d19.406995150527083!3d51.729961667376535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDUzJzMwLjEiTiAxOcKwMTInNTUuNyJF!5e0!3m2!1sen!2sus!4v1622120749672!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+    <div class="modal" id="modal">
+        <span class="close" id="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <span class="modal-prev" id="modal-prev">&#10094;</span>
+        <span class="modal-next" id="modal-next">&#10095;</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
